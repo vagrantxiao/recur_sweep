@@ -6,8 +6,8 @@ W: the weights for each digit. e.g.: 2 for binary, 10 for decimal.
 weights[N]: the weights for each digit. By default, we use W.
             You can also specify your own weights.
 
-If you specify N=2, W=2, weights[N] = {2, 2}
-you will get
+If you specify N=2, W=2, weights[N] = {2, 2}, you will get
+
 00
 
 01
@@ -17,8 +17,8 @@ you will get
 11
 
 
-if you specify N=3, W=3, weights[N] will be {3, 3, 3}
-you will get
+if you specify N=3, W=3, weights[N] will be {3, 3, 3}, you will get
+
 0 0 0 
 
 0 0 1 
