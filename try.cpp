@@ -14,8 +14,8 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-#define N 2  // how many digits you want to sweep.
-#define W 10  // The default weights for each digit
+#define N 3  // how many digits you want to sweep.
+#define W 3  // The default weights for each digit
 int weights[N]; // the weights for each digit
 
 typedef unsigned int uint;
@@ -38,7 +38,7 @@ void recur_sweep(vector< vector<int> > &idxes, int digit[N], uint n){
 
 int main() {
         // initialize the weights with W. You can also specify different weights for each digit.
-	for(int i=0; i<N; i++){ weights[i] = W+i; }
+	for(int i=0; i<N; i++){ weights[i] = W; }
 	vector< vector<int> > idxes;
 	int digit[N];
 	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
