@@ -1,8 +1,11 @@
 # recur_sweep
 Description : This snippet can generate N-dimension sequence by recur_sweep()
                fucntion.
+               
 N: how many digits you want to sweep.
+
 W: the weights for each digit. e.g.: 2 for binary, 10 for decimal.
+
 weights[N]: the weights for each digit. By default, we use W.
             You can also specify your own weights.
 
